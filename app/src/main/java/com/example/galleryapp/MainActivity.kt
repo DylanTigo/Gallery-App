@@ -74,7 +74,7 @@ fun GalleryLayout (modifier: Modifier = Modifier) {
             modifier = Modifier.fillMaxSize().weight(0.5f).clip(RoundedCornerShape(20.dp)),
             contentScale = ContentScale.Crop
         )
-        Column (Modifier.padding(top= 20.dp, bottom = 20.dp)) {
+        Column (Modifier.padding(top= 20.dp, bottom = 60.dp)) {
             Text(
                 text = stringResource(id = galleryItems[currentImage].club),
                 style = MaterialTheme.typography.headlineLarge,
@@ -117,7 +117,7 @@ fun ButtonElt(onClick: () -> Unit, text: String, modifier: Modifier = Modifier) 
         Text(
             text = text,
             style = MaterialTheme.typography.bodyMedium,
-            modifier = Modifier.padding(vertical = 4.dp)
+            modifier = Modifier.padding(vertical = 6.dp)
         )
     }
 }
