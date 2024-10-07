@@ -71,7 +71,7 @@ fun GalleryLayout (modifier: Modifier = Modifier) {
         Image(
             painter = painterResource(id = galleryItems[currentImage].imageSrc),
             contentDescription = stringResource(id = galleryItems[currentImage].description),
-            modifier = Modifier.fillMaxSize().weight(1f).clip(RoundedCornerShape(20.dp)),
+            modifier = Modifier.fillMaxSize().weight(0.5f).clip(RoundedCornerShape(20.dp)),
             contentScale = ContentScale.Crop
         )
         Column (Modifier.padding(top= 20.dp, bottom = 20.dp)) {
@@ -83,7 +83,7 @@ fun GalleryLayout (modifier: Modifier = Modifier) {
             )
             Text(
                 text = stringResource(id = galleryItems[currentImage].description) +" (${galleryItems[currentImage].year})",
-                style = MaterialTheme.typography.bodyMedium
+                style = MaterialTheme.typography.bodyLarge
             )
         }
         Row (modifier = Modifier.padding(bottom = 20.dp).fillMaxWidth(), horizontalArrangement = Arrangement.Center, verticalAlignment = Alignment.CenterVertically) {
@@ -116,6 +116,7 @@ fun ButtonElt(onClick: () -> Unit, text: String, modifier: Modifier = Modifier) 
     ) {
         Text(
             text = text,
+            style = MaterialTheme.typography.bodyMedium,
             modifier = Modifier.padding(vertical = 4.dp)
         )
     }
