@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Gallery App</string>
+    <string name="madrid">Real Madrid</string>
+    <string name="barcelona">FC Barcelona</string>
+    <string name="arsenal">Arsenal FC</string>
+    <string name="bayern">Bayern Munich</string>
+    <string name="inter">Inter Milan</string>
+    <string name="description1">Real Madrid Home Kit with Mendy, Valverde, Vin Jr and Militao</string>
+    <string name="description2">Arsenal Home Kit with Havertz, Raya and Saka</string>
+    <string name="description3">FC Barcelona Home Kit with Lamal, Lewandowski and two girls😂</string>
+    <string name="description4">Bayern Munich Home Kit with Kane, Muller and Guerreiro</string>
+    <string name="description5">Arsenal Away kit with Trossard, Raya and Martinelli</string>
+    <string name="description6">Intern Milan Home Kit with Barella, Martinez and Bastoni</string>
+</resources>
